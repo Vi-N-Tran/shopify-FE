@@ -3,9 +3,11 @@
 import { combineReducers } from 'redux';
 
 import CountReducer from './count-reducer';
+import NasaReducer from './nasaReducer';
 
 const rootReducer = combineReducers({
   count: CountReducer,
+  nasa: NasaReducer,
 });
 
 export default rootReducer;
