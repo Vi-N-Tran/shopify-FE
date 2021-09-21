@@ -82,7 +82,7 @@ const Home = (props) => {
       return (
         <div>
           {displayInputBar()}
-          <div>
+          <div className="loading">
             <h2>Please select a longer date interval</h2>
           </div>
           <Particles className="particle-js" />
