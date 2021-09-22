@@ -23,7 +23,6 @@ const Home = (props) => {
   }, []);
 
   if (search) {
-    console.log('home count', count);
     props.fetchNasaPics(startDate, endDate, count);
     setSearch(false);
   }
